@@ -14,35 +14,38 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad
 {
+    NSInteger a = 34;
+    NSInteger b = 61;
     
+    int addNumber [[self add:a toNum:b]
+    {
+        NSLog(@"this is", %i);
+    }
     [self sayHelloWorld:@"Hey Carol G. you did something right"];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
--(void)sayHelloWorld:(NSString *)myFirstHoller
-{
+-(void)sayHelloWorld:(NSString *)myFirstHoller {
+
     NSLog(@"%@", myFirstHoller);
 }
 
--(int)sayHelloAgain(void)
-{   
+-(int)sayHelloAgain;{
+   
     return 0;
 }
 
-
-- (int)add:(int a, int b)addNum
-{
-    int float a = 12.9;
-    float b = 7.1;
-    cookingTime = 12.9 + 7.1;
-    NSLog(@"%@What is the sum", addNum);
-    
-    return 0;
-    
+-(int)add:(NSInteger) a toNum:(NSInteger) b {
+    int result = a+b;
+    NSLog(@"%d", a+b);
+    return result;
 }
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

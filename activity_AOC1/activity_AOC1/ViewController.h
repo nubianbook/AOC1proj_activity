@@ -15,5 +15,6 @@
 
 -(void)sayHelloWorld:(NSString *)myFirstHoller;
 -(int)sayHelloAgain;
+-(int) add:(NSInteger) a toNum:(NSInteger) b;
 
 @end
